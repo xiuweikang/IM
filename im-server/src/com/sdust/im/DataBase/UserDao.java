@@ -268,15 +268,6 @@ public class UserDao {
 		return list;
 	}
 
-	public static void main(String[] args) {
-		UserDao db = new UserDao();
-		User user = new User("123456", "25855", "123456", new java.util.Date(),
-				1, new byte[] {});
-		List<User> list = UserDao.selectFriendByAccountOrID("123456");
-		for (int i = 0; i < list.size(); i++) {
-			User u = list.get(i);
-			System.out.println(u);
-		}
-	}
+
 
 }

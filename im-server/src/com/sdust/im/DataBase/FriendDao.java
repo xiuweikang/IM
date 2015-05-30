@@ -79,7 +79,5 @@ public class FriendDao {
 			}	
 		DBPool.close(con);
 	}
-	public static void main(String args[]){
-		addFriend(48, 35);
-	}
+	
 }

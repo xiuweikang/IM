@@ -47,23 +47,8 @@ public class SaveMsgDao {
 	private SaveMsgDao(){
 		
 	}
-	public static void main(String[] args) {
-//		ChatEntity chatEntity = new ChatEntity();
-//		chatEntity.setContent("我加你了");
-//		chatEntity.setReceiverId(23);
-//		chatEntity.setSenderId(48);
-//		chatEntity.setSendTime("9:45");
-		TranObject tran = new TranObject("", TranObjectType.FRIEND_REQUEST);
-		tran.setSendId(48);
-		tran.setSendName("jiaomignlaing");
-		tran.setReceiveId(23);
-		insertSaveMsg(48, tran);
-//		ArrayList<TranObject> tranList = selectMsg(23);
-//		TranObject tran = tranList.get(0);
-	//	System.out.println(tran.getReceiveId()+" "+tran.getObject());
-//		deleteSaveMsg(5);
-		
-	}
+
+	
 	/**
 	 * 插入消息
 	 * 

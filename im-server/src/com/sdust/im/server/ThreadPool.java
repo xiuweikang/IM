@@ -20,9 +20,6 @@ public class ThreadPool {
     public void  execute(Runnable thread){
     	service.execute(thread);
     }
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
 
 }

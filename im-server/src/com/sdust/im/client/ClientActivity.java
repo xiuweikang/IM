@@ -95,9 +95,7 @@ public class ClientActivity {
 	/**
 	 * 检查账号和用户名是否存在
 	 */
-	public static void main(String[] args) {
 
-	}
 
 	public void login(TranObject tran) {
 		User user = (User) tran.getObject();
