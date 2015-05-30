@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/dialog_simplelist_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_simplelist"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/dialog_divider"
+        android:dividerHeight="1.0dip"
+        android:fadingEdge="none"
+        android:listSelector="@drawable/list_selector_transition"
+        android:scrollingCache="false" />
+
+</LinearLayout>

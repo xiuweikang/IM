@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp" >
+	    
+    <ImageView
+        android:id="@+id/cc0_friend_search_result_item_avatar"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp" />
+    
+    <TextView
+        android:id="@+id/cc0_friend_search_result_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cc0_friend_search_result_item_avatar"
+        android:layout_alignTop="@id/cc0_friend_search_result_item_avatar"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/cc0_friend_search_result_item_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cc0_friend_search_result_item_name"
+        android:layout_below="@id/cc0_friend_search_result_item_name"
+        android:layout_marginTop="5dp"
+        android:text="male"
+        android:textSize="13sp" />
+    
+    <TextView
+        android:id="@+id/cc0_friend_search_result_item_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cc0_friend_search_result_item_gender"
+        android:layout_alignBottom="@id/cc0_friend_search_result_item_gender"
+        android:layout_marginLeft="8dp"
+        android:text="25"
+        android:textSize="13sp" />
+	    
+</RelativeLayout>

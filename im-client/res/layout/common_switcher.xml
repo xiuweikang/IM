@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="3dip"
+    android:layout_marginRight="3dip" >
+
+    <RelativeLayout
+        android:id="@+id/switcher_layout_root"
+        android:layout_width="84dip"
+        android:layout_height="34dip"
+        android:background="@drawable/bg_common_tabselector" >
+
+        <LinearLayout
+            android:id="@+id/switcher_layout_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left" >
+
+            <View
+                android:layout_width="42dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg_common_tabseletor_on" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:focusable="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/switcher_iv_left_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center" />
+
+                <TextView
+                    android:id="@+id/switcher_tv_left_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:textColor="@color/switcher_textcolor"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/switcher_iv_right_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center" />
+
+                <TextView
+                    android:id="@+id/switcher_tv_right_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:textColor="@color/switcher_textcolor"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_normal" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/reg_photo_layout_nearusers"
+        android:layout_below="@+id/reg_photo_htv_recommendation"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dip" >
+
+                <ImageView
+                    android:id="@+id/reg_photo_iv_userphoto"
+                    android:layout_width="120dip"
+                    android:layout_height="120dip"
+                    android:layout_marginRight="12dip"
+                    android:background="@drawable/bg_reg_userhead"
+                    android:padding="6dip"
+                    android:src="@drawable/ic_common_def_header" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1dip"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/reg_photo_layout_selectphoto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="3dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_default"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_reg_album" />
+
+                        <com.sdust.im.view.HandyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="0.5dip"
+                            android:layout_weight="1.0"
+                            android:text="相册选取"
+                            android:textColor="@color/font_value" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/reg_photo_layout_takepicture"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="3dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_default"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:src="@drawable/ic_reg_camera" />
+
+                        <com.sdust.im.view.HandyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="0.5dip"
+                            android:layout_weight="1"
+                            android:text="现在拍摄"
+                            android:textColor="@color/font_value" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.sdust.im.view.HandyTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="12dip"
+                android:gravity="center"
+                android:text="上传真实的头像，拉近真实的距离。"
+                android:textColor="@color/font_value"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

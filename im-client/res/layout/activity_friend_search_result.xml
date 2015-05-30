@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">    
+    
+
+    <com.sdust.im.view.TitleBarView 
+        android:id="@+id/title_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+       			android:layout_height="0dp"
+       			android:layout_weight="10">
+        <ListView
+	        android:id="@+id/friend_search_result_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+		</ListView> 
+		<View
+		    android:background="#e0e0e0"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@id/friend_search_result_listview" />
+    </RelativeLayout>
+    
+</LinearLayout>

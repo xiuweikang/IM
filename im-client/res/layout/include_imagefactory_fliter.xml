@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.sdust.im.view.RotateImageView
+        android:id="@+id/imagefactory_fliter_riv_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_alignParentBottom="true"
+            android:background="#b2000000" />
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="5dip"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <include
+                    android:id="@+id/imagefactory_fliter_item_1"
+                    android:layout_weight="1"
+                    layout="@layout/listitem_filter_item" />
+
+                <include
+                    android:id="@+id/imagefactory_fliter_item_2"
+                    android:layout_weight="1"
+                    layout="@layout/listitem_filter_item" />
+
+                <include
+                    android:id="@+id/imagefactory_fliter_item_3"
+                    android:layout_weight="1"
+                    layout="@layout/listitem_filter_item" />
+
+                <include
+                    android:id="@+id/imagefactory_fliter_item_4"
+                    android:layout_weight="1"
+                    layout="@layout/listitem_filter_item" />
+
+                <include
+                    android:id="@+id/imagefactory_fliter_item_5"
+                    android:layout_weight="1"
+                    layout="@layout/listitem_filter_item" />
+
+                <include
+                    android:id="@+id/imagefactory_fliter_item_6"
+                    android:layout_weight="1"
+                    layout="@layout/listitem_filter_item" />
+
+                <include
+                    android:id="@+id/imagefactory_fliter_item_7"
+                    android:layout_weight="1"
+                    layout="@layout/listitem_filter_item" />
+
+                <include
+                    android:id="@+id/imagefactory_fliter_item_8"
+                    android:layout_weight="1"
+                    layout="@layout/listitem_filter_item" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

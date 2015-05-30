@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="guide_content">
+        <item>@drawable/index_content_1</item>
+        <item>@drawable/index_content_2</item>
+        <item>@drawable/index_content_3</item>
+        <item>@drawable/index_content_4</item>
+        <item>@drawable/index_content_5</item>
+    </array>
+    <array name="guide_bottom">
+        <item>@drawable/index_bottom_1</item>
+        <item>@drawable/index_bottom_2</item>
+        <item>@drawable/index_bottom_3</item>
+        <item>@drawable/index_bottom_4</item>
+        <item>@drawable/index_bottom_5</item>
+    </array>
+    <array name="guide_backgroud">
+        <item>@drawable/index_intro_bg</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>@drawable/index_intro_bg</item>
+    </array>
+
+    <string-array name="chat_audio_type">
+        <item>智能切换</item>
+        <item>扬声器模式(免提)</item>
+        <item>听筒模式</item>
+    </string-array>
+    <string-array name="country_codes">
+        <item>阿尔巴尼亚(355)</item>
+        <item>阿尔及利亚(213)</item>
+        <item>阿富汗(93)</item>
+        <item>阿根廷(54)</item>
+        <item>阿拉伯联合酋长国(971)</item>
+        <item>阿鲁巴岛(297)</item>
+        <item>阿曼(968)</item>
+        <item>阿塞拜疆(994)</item>
+        <item>阿森松(247)</item>
+        <item>埃及(20)</item>
+        <item>埃塞俄比亚(251)</item>
+        <item>爱尔兰(353)</item>
+        <item>爱沙尼亚(372)</item>
+        <item>安道尔(376)</item>
+        <item>安哥拉(244)</item>
+        <item>安圭拉(1264)</item>
+        <item>安提瓜和巴布达(1268)</item>
+        <item>奥地利(43)</item>
+        <item>奥兰群岛(358)</item>
+        <item>澳大利亚(61)</item>
+        <item>澳门(853)</item>
+        <item>巴巴多斯(1246)</item>
+        <item>巴哈马(1242)</item>
+        <item>巴基斯坦(92)</item>
+        <item>巴拉圭(595)</item>
+        <item>巴勒斯坦(970)</item>
+        <item>巴林(973)</item>
+        <item>巴拿马(507)</item>
+        <item>巴西(55)</item>
+        <item>白俄罗斯(375)</item>
+        <item>百慕大(1441)</item>
+        <item>保加利亚(359)</item>
+        <item>北马里亚纳群岛(1670)</item>
+        <item>贝宁(229)</item>
+        <item>比利时(32)</item>
+        <item>冰岛(354)</item>
+        <item>波多黎各(1787)</item>
+        <item>波黑(387)</item>
+        <item>波兰(48)</item>
+        <item>玻利维亚(591)</item>
+        <item>伯利兹(501)</item>
+        <item>博茨瓦纳(267)</item>
+        <item>不丹(975)</item>
+        <item>布基拉法索(226)</item>
+        <item>布隆迪(257)</item>
+        <item>朝鲜(850)</item>
+        <item>赤道几内亚(240)</item>
+        <item>丹麦(45)</item>
+        <item>德国(49)</item>
+        <item>多哥(228)</item>
+        <item>多米尼加共和国(1809)</item>
+        <item>多米尼克(1767)</item>
+        <item>俄罗斯(7)</item>
+        <item>厄瓜多尔(593)</item>
+        <item>厄立特里亚(291)</item>
+        <item>法国(33)</item>
+        <item>法罗群岛(298)</item>
+        <item>法属波利尼西亚(689)</item>
+        <item>法属圭亚那(594)</item>
+        <item>梵蒂冈(379)</item>
+        <item>菲律宾(63)</item>
+        <item>斐济(679)</item>
+        <item>芬兰(358)</item>
+        <item>佛得角(238)</item>
+        <item>冈比亚(220)</item>
+        <item>刚果(242)</item>
+        <item>刚果民主共和国(243)</item>
+        <item>哥伦比亚(57)</item>
+        <item>哥斯达黎加(506)</item>
+        <item>格林纳达(1473)</item>
+        <item>格陵兰岛(299)</item>
+        <item>格鲁吉亚(995)</item>
+        <item>瓜德罗普(590)</item>
+        <item>关岛(1671)</item>
+        <item>圭亚那(592)</item>
+        <item>海地(509)</item>
+        <item>韩国(82)</item>
+        <item>荷兰(31)</item>
+        <item>荷属安的列斯(599)</item>
+        <item>洪都拉斯(504)</item>
+        <item>吉布提(253)</item>
+        <item>吉尔吉斯斯坦(996)</item>
+        <item>几内亚(224)</item>
+        <item>加那利群岛(3491)</item>
+        <item>加纳(233)</item>
+        <item>加拿大(1)</item>
+        <item>加蓬(241)</item>
+        <item>柬埔寨(855)</item>
+        <item>捷克(420)</item>
+        <item>喀麦隆(237)</item>
+        <item>卡塔尔(974)</item>
+        <item>开曼群岛(1345)</item>
+        <item>科摩罗(269)</item>
+        <item>科索沃(883)</item>
+        <item>科特迪瓦(225)</item>
+        <item>科威特(965)</item>
+        <item>克罗地亚(385)</item>
+        <item>肯尼亚(254)</item>
+        <item>拉脱维亚(371)</item>
+        <item>莱索托(266)</item>
+        <item>老挝(856)</item>
+        <item>黎巴嫩(961)</item>
+        <item>立陶宛(370)</item>
+        <item>利比里亚(231)</item>
+        <item>利比亚(218)</item>
+        <item>列支敦士登(423)</item>
+        <item>留尼旺岛(262)</item>
+        <item>卢森堡(352)</item>
+        <item>卢旺达(250)</item>
+        <item>罗马尼亚(40)</item>
+        <item>马达加斯加(261)</item>
+        <item>马尔代夫(960)</item>
+        <item>马耳他(356)</item>
+        <item>马拉维(265)</item>
+        <item>马来西亚(60)</item>
+        <item>马里(223)</item>
+        <item>马其顿(389)</item>
+        <item>马绍尔群岛(692)</item>
+        <item>马提尼克(596)</item>
+        <item>马约特(262)</item>
+        <item>毛里求斯(230)</item>
+        <item>毛里塔尼亚(222)</item>
+        <item>美国(1)</item>
+        <item>美属萨摩亚(1684)</item>
+        <item>美属维尔京群岛(1340)</item>
+        <item>蒙古(976)</item>
+        <item>蒙塞拉特岛(1664)</item>
+        <item>蒙特內哥羅(382)</item>
+        <item>孟加拉国(880)</item>
+        <item>秘鲁(51)</item>
+        <item>密克罗尼西亚联邦(691)</item>
+        <item>缅甸(95)</item>
+        <item>摩尔多瓦(373)</item>
+        <item>摩洛哥(212)</item>
+        <item>摩纳哥(377)</item>
+        <item>莫桑比克(258)</item>
+        <item>墨西哥(52)</item>
+        <item>纳米比亚(264)</item>
+        <item>南非(27)</item>
+        <item>尼泊尔(977)</item>
+        <item>尼加拉瓜(505)</item>
+        <item>尼日尔(227)</item>
+        <item>尼日利亚(234)</item>
+        <item>挪威(47)</item>
+        <item>帕劳(680)</item>
+        <item>葡萄牙(351)</item>
+        <item>千里达及托巴哥(1868)</item>
+        <item>日本(81)</item>
+        <item>瑞典(46)</item>
+        <item>瑞士(41)</item>
+        <item>萨尔瓦多(503)</item>
+        <item>塞尔维亚(381)</item>
+        <item>塞拉利昂(232)</item>
+        <item>塞内加尔(221)</item>
+        <item>塞浦路斯(357)</item>
+        <item>塞舌尔(248)</item>
+        <item>沙特阿拉伯(966)</item>
+        <item>圣诞岛(61)</item>
+        <item>圣基茨和尼维斯(1869)</item>
+        <item>圣卢西亚(1758)</item>
+        <item>圣马力诺(223)</item>
+        <item>圣马力诺(378)</item>
+        <item>圣皮埃尔和密克隆群岛(508)</item>
+        <item>圣文森特和格林纳丁斯(1784)</item>
+        <item>斯里兰卡(94)</item>
+        <item>斯洛伐克(421)</item>
+        <item>斯洛文尼亚(386)</item>
+        <item>斯威士兰(268)</item>
+        <item>苏丹(249)</item>
+        <item>苏里南(597)</item>
+        <item>索马里(252)</item>
+        <item>塔吉克斯坦(992)</item>
+        <item>台湾(886)</item>
+        <item>泰国(66)</item>
+        <item>坦桑尼亚(255)</item>
+        <item>汤加(676)</item>
+        <item>特克斯和凯科斯群岛(1649)</item>
+        <item>突尼斯(216)</item>
+        <item>图瓦卢(688)</item>
+        <item>土耳其(90)</item>
+        <item>土耳其(90)</item>
+        <item>土库曼斯坦(993)</item>
+        <item>危地马拉(502)</item>
+        <item>委内瑞拉(58)</item>
+        <item>文莱(673)</item>
+        <item>乌干达(256)</item>
+        <item>乌克兰(380)</item>
+        <item>乌拉圭(598)</item>
+        <item>乌兹别克斯坦(998)</item>
+        <item>西班牙(34)</item>
+        <item>西撒哈拉(212)</item>
+        <item>西萨摩亚(685)</item>
+        <item>希腊(30)</item>
+        <item>香港(852)</item>
+        <item>新加坡(65)</item>
+        <item>新喀里多尼亚(687)</item>
+        <item>新西兰(64)</item>
+        <item>匈牙利(36)</item>
+        <item>叙利亚(963)</item>
+        <item>牙买加(1876)</item>
+        <item>亚美尼亚(374)</item>
+        <item>也门(967)</item>
+        <item>伊拉克(964)</item>
+        <item>伊朗(98)</item>
+        <item>以色列(972)</item>
+        <item>意大利(39)</item>
+        <item>印度(91)</item>
+        <item>印度尼西亚(62)</item>
+        <item>英国(44)</item>
+        <item>英属维尔京群岛(1284)</item>
+        <item>约旦(962)</item>
+        <item>越南(84)</item>
+        <item>赞比亚(260)</item>
+        <item>乍得(235)</item>
+        <item>直布罗陀(350)</item>
+        <item>智利(56)</item>
+        <item>中非(236)</item>
+        <item>中国(86)</item>
+    </string-array>
+    <string-array name="reportfeed_items">
+        <item>骚扰信息</item>
+        <item>虚假身份</item>
+        <item>广告欺诈</item>
+        <item>不当发言</item>
+    </string-array>
+    <string-array name="age_range">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+    </string-array>
+    
+    <string-array name="birth_year_range">
+        <item> 1941 </item>
+        <item> 1942 </item>
+        <item> 1943 </item>
+        <item> 1944 </item>
+        <item> 1945 </item>
+        <item> 1946 </item>
+        <item> 1947 </item>
+        <item> 1948 </item>
+        <item> 1949 </item>
+        <item> 1950 </item>
+        <item> 1951 </item>
+        <item> 1952 </item>
+        <item> 1953 </item>
+        <item> 1954 </item>
+        <item> 1955 </item>
+        <item> 1956 </item>
+        <item> 1957 </item>
+        <item> 1958 </item>
+        <item> 1959 </item>
+        <item> 1960 </item>
+        <item> 1961 </item>
+        <item> 1962 </item>
+        <item> 1963 </item>
+        <item> 1964 </item>
+        <item> 1965 </item>
+        <item> 1966 </item>
+        <item> 1967 </item>
+        <item> 1968 </item>
+        <item> 1969 </item>
+        <item> 1970 </item>
+        <item> 1971 </item>
+        <item> 1972 </item>
+        <item> 1973 </item>
+        <item> 1974 </item>
+        <item> 1975 </item>
+        <item> 1976 </item>
+        <item> 1977 </item>
+        <item> 1978 </item>
+        <item> 1979 </item>
+        <item> 1980 </item>
+        <item> 1981 </item>
+        <item> 1982 </item>
+        <item> 1983 </item>
+        <item> 1984 </item>
+        <item> 1985 </item>
+        <item> 1986 </item>
+        <item> 1987 </item>
+        <item> 1988 </item>
+        <item> 1989 </item>
+        <item> 1990 </item>
+        <item> 1991 </item>
+        <item> 1992 </item>
+        <item> 1993 </item>
+        <item> 1994 </item>
+        <item> 1995 </item>
+        <item> 1996 </item>
+        <item> 1997 </item>
+        <item> 1998 </item>
+        <item> 1999 </item>
+        <item> 2000 </item>
+        <item> 2001 </item>
+        <item> 2002 </item>
+        <item> 2003 </item>
+        <item> 2004 </item>
+        <item> 2005 </item>
+        <item> 2006 </item>
+        <item> 2007 </item>
+        <item> 2008 </item>
+        <item> 2009 </item>
+        <item> 2010 </item>
+        <item> 2011 </item>
+        <item> 2012 </item>
+    </string-array>
+    
+    <string-array name="birth_month_range">
+        <item> Jan </item>
+        <item> Feb </item>
+        <item> Mar </item>
+        <item> Apr </item>
+        <item> May </item>
+        <item> June </item>
+        <item> July </item>
+        <item> Aug </item>
+        <item> Sept </item>
+        <item> Oct </item>
+        <item> Nov </item>
+        <item> Dec </item>
+    </string-array>
+    
+    <string-array name="birth_day_range">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+        <item> 11 </item>
+        <item> 12 </item>
+        <item> 13 </item>
+        <item> 14 </item>
+        <item> 15 </item>
+        <item> 16 </item>
+        <item> 17 </item>
+        <item> 18 </item>
+        <item> 19 </item>
+        <item> 20 </item>
+        <item> 21 </item>
+        <item> 22 </item>
+        <item> 23 </item>
+        <item> 24 </item>
+        <item> 25 </item>
+        <item> 26 </item>
+        <item> 27 </item>
+        <item> 28 </item>
+        <item> 29 </item>
+        <item> 30 </item>
+        <item> 31 </item>
+    </string-array>
+
+</resources>

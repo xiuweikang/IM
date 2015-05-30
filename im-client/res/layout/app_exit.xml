@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alpha="0.9">
+    
+    <LinearLayout
+        android:id="@+id/ll_exit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/pop_bg">
+        <TextView 
+            android:id="@+id/app_change_user"
+            android:layout_height="45dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:text="@string/app_change_user"/>
+        <View 
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/devide_line"
+            android:alpha="0.5"/>
+        <TextView 
+            android:id="@+id/app_exit"
+            android:layout_height="45dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/red"
+            android:text="@string/app_exit_user"/>
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/app_cancle"
+        android:layout_below="@id/ll_exit"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:text="@string/app_cancle"
+        android:gravity="center"
+        android:background="@drawable/pop_bg"/>
+    <View 
+        android:layout_below="@id/app_cancle"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>

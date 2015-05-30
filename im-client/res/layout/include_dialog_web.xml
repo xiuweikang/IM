@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF" >
+
+    <WebView
+        android:id="@+id/dialog_web_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/baseweb_linear_header_container"
+        android:fadeScrollbars="true"
+        android:scrollbarStyle="insideOverlay" />
+
+    <include
+        android:id="@+id/dialog_web_loading_indicator"
+        layout="@layout/include_loading_indicator"
+        android:visibility="visible" />
+
+</RelativeLayout>

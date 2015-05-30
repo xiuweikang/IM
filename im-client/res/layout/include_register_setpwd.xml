@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="15dip" >
+
+            <com.sdust.im.view.HandyTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text="设置账号密码"
+                android:textColor="@color/text_color"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/reg_setpwd_et_pwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:background="@drawable/edittext_default"
+                android:hint="输入密码"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLength="18"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/reg_setpwd_et_repwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:background="@drawable/edittext_default"
+                android:hint="再次输入密码"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLength="18"
+                android:singleLine="true" />
+            <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:layout_marginRight="8dip"
+                        android:layout_marginTop="8dip"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:textColor="@color/notes_color"
+                        android:textSize="14sp" 
+                        android:text="6~18个字符，区分大小写"/>
+           
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

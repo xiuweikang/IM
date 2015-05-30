@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_listitem_selector"
+    android:paddingLeft="1dip"
+    android:paddingRight="1dip" >
+
+    <com.sdust.im.view.HandyTextView
+        android:id="@+id/listitem_dialog_text"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="12dip"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/listitem_dialog_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_marginRight="12dip"
+        android:src="@drawable/ic_dropmenu_selector"
+        android:visibility="gone" />
+
+</LinearLayout>

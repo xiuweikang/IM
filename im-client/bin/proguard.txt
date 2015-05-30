@@ -1,0 +1,86 @@
+# view AndroidManifest.xml #generated:68
+-keep class com.sdust.im.activity.ChatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.sdust.im.activity.FriendSearchResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.sdust.im.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.sdust.im.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.sdust.im.activity.SearchFriendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.sdust.im.activity.WelcomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.sdust.im.activity.imagefactory.ImageFactoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.sdust.im.activity.register.RegisterActivity { <init>(...); }
+
+# view res/layout/include_imagefactory_crop.xml #generated:6
+-keep class com.sdust.im.view.CropImageView { <init>(...); }
+
+# view res/layout/common_flipping_loading_diloag.xml #generated:9
+-keep class com.sdust.im.view.FlippingImageView { <init>(...); }
+
+# view res/layout/common_dialog_generic.xml #generated:35
+# view res/layout/common_dialog_generic.xml #generated:80
+# view res/layout/common_flipping_loading_diloag.xml #generated:15
+# view res/layout/common_headerbar.xml #generated:48
+# view res/layout/common_headerbar_spinner.xml #generated:11
+# view res/layout/common_toast.xml #generated:8
+# view res/layout/include_header_righttext.xml #generated:6
+# view res/layout/include_register_account.xml #generated:45
+# view res/layout/include_register_baseinfo.xml #generated:100
+# view res/layout/include_register_baseinfo.xml #generated:37
+# view res/layout/include_register_baseinfo.xml #generated:65
+# view res/layout/include_register_baseinfo.xml #generated:87
+# view res/layout/include_register_birthday.xml #generated:28
+# view res/layout/include_register_birthday.xml #generated:43
+# view res/layout/include_register_birthday.xml #generated:52
+# view res/layout/include_register_birthday.xml #generated:60
+# view res/layout/include_register_birthday.xml #generated:88
+# view res/layout/include_register_photo.xml #generated:61
+# view res/layout/include_register_photo.xml #generated:86
+# view res/layout/include_register_photo.xml #generated:97
+# view res/layout/include_register_setpwd.xml #generated:21
+# view res/layout/include_welcome_item.xml #generated:15
+# view res/layout/listitem_dialog.xml #generated:9
+# view res/layout/listitem_filter_item.xml #generated:26
+-keep class com.sdust.im.view.HandyTextView { <init>(...); }
+
+# view res/layout/include_header.xml #generated:2
+-keep class com.sdust.im.view.HeaderLayout { <init>(...); }
+
+# view res/layout/common_headerbar.xml #generated:61
+-keep class com.sdust.im.view.HeaderSpinner { <init>(...); }
+
+# view res/layout/include_imagefactory_fliter.xml #generated:7
+-keep class com.sdust.im.view.RotateImageView { <init>(...); }
+
+# view res/layout/common_headerbar_spinner.xml #generated:24
+-keep class com.sdust.im.view.RotatingImageView { <init>(...); }
+
+# view res/layout/common_headerbar.xml #generated:36
+-keep class com.sdust.im.view.ScrollingTextView { <init>(...); }
+
+# view res/layout/fragment_message.xml #generated:12
+-keep class com.sdust.im.view.SlideCutListView { <init>(...); }
+
+# view res/layout/common_headerbar.xml #generated:154
+-keep class com.sdust.im.view.SwitcherButton { <init>(...); }
+
+# view res/layout/activity_chat.xml #generated:6
+# view res/layout/activity_friend_search_result.xml #generated:7
+# view res/layout/activity_searchfriend.xml #generated:6
+# view res/layout/fragment_friendlist.xml #generated:7
+# view res/layout/fragment_message.xml #generated:7
+# view res/layout/fragment_nearby.xml #generated:7
+# view res/layout/fragment_userinfo.xml #generated:7
+-keep class com.sdust.im.view.TitleBarView { <init>(...); }
+

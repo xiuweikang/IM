@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:layout_marginLeft="2dip"
+    android:layout_marginRight="2dip" >
+
+    <ImageView
+        android:id="@+id/filter_item_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="3dip"
+        android:background="@drawable/round_corner_filter_gray"
+        android:clickable="false"
+        android:focusable="false"
+        android:padding="1dip" />
+
+    <ImageView
+        android:id="@+id/filter_item_cover"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/btn_filter_cover" />
+
+    <com.sdust.im.view.HandyTextView
+        android:id="@+id/filter_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/filter_item_image"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:paddingBottom="2dip"
+        android:shadowColor="#ff000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="1.0"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

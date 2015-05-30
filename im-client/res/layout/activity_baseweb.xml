@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF" >
+
+    <LinearLayout
+        android:id="@+id/baseweb_linear_header_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <include layout="@layout/include_header" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/baseweb_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/baseweb_linear_header_container"
+        android:fadeScrollbars="true"
+        android:scrollbarStyle="insideOverlay" />
+
+    <include
+        android:id="@+id/baseweb_loading_indicator"
+        layout="@layout/include_loading_indicator"
+        android:visibility="gone" />
+
+</RelativeLayout>

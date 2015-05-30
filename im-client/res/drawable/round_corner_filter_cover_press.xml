@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="5.0dip" />
+    <solid android:color="@color/profile_avater_cover_selected" />
+    <size android:height="58.0dip" android:width="58.0dip" />
+</shape>

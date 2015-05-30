@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ImageView
+        android:id="@+id/iv_loading"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/app_name"
+        android:layout_centerInParent="true"
+        android:src="@drawable/no_chat"/>
+    <TextView 
+        android:id="@+id/tv_loading"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/gray_font"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_loading"
+        android:text="@string/tv_loading"/>
+
+</RelativeLayout>

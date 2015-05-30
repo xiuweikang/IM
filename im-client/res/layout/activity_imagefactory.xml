@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black" >
+
+    <include
+        android:id="@+id/imagefactory_header"
+        layout="@layout/include_header" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/imagefactory_layout_bottom"
+        android:layout_below="@+id/imagefactory_header"
+        android:orientation="vertical" >
+
+        <ViewFlipper
+            android:id="@+id/imagefactory_vf_viewflipper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:flipInterval="1000"
+            android:persistentDrawingCache="animation" >
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/include_imagefactory_crop" />
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/include_imagefactory_fliter" />
+        </ViewFlipper>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imagefactory_layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_unlogin_bar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="4dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingTop="4dip" >
+
+        <Button
+            android:id="@+id/imagefactory_btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="42dip"
+            android:layout_marginRight="9dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bottombar"
+            android:gravity="center"
+            android:textColor="@color/profile_bottom_text_color"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/imagefactory_btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="42dip"
+            android:layout_marginLeft="9dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bottombar"
+            android:gravity="center"
+            android:textColor="@color/profile_bottom_text_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagefactory_header"
+        android:background="@drawable/bg_topbar_shadow"
+        android:focusable="true" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dip"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/welcome_item_iv_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"/>
+
+    <com.sdust.im.view.HandyTextView
+        android:id="@+id/welcome_item_htv_distance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="1.5dip"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:maxWidth="77dip"
+        android:singleLine="true"
+        android:textColor="#FFFFFFFF"
+        android:textSize="10sp" />
+
+</LinearLayout>
